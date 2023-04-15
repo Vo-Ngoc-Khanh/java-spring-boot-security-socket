@@ -1,0 +1,18 @@
+package com.project.demo.response;
+
+import java.util.Set;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class UserRoleRequestBody {
+	
+	private String username;
+	
+	private Set<String> role;
+
+}
